@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PageObjectModelSequence">
+	<test thread-count="5" name="PageObjectModelSequence">
+		<classes>
+			<class name="TestCase.CreateLeadTestCase" />
+			<class name="TestCase.VerifyHomePage" />
+			<class name="TestCase.DeleteLeadTestCase" />
+			<class name="TestCase.DuplicateLeadTestCase" />
+			<class name="TestCase.EditLeadTestCase" />
+			<class name="TestCase.MergeLeadTestCase" />
+		</classes>
+	</test> <!-- PageObjectModelSequence -->
+</suite> <!-- PageObjectModelSequence -->
